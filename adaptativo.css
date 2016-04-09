@@ -1,0 +1,41 @@
+h1 {
+	font-family: 'Trebuchet MS';
+	margin: 5px;
+}
+
+main {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.box {
+	width: 190px;
+	height: 200px;
+	background-color: orange;
+	margin: 5px;
+}
+
+.bigbox {
+	width: 390px;
+	background-color: blue;
+}
+
+section {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 620px) {
+	.box#box_8 {
+		width: 590px;
+		background-color: green;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.box#box_8 {
+		width: 190px;
+		background-color: green;
+	}
+}
+

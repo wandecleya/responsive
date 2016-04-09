@@ -1,0 +1,20 @@
+main {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: 'Trebuchet MS';
+	margin: 5px;
+}
+
+.image-container {
+	max-width: 500px;
+	width: 100%;
+}
+
+img {
+	width: 100%;
+}
+
+
