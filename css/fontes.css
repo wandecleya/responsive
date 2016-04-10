@@ -1,0 +1,8 @@
+section {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+p {
+	font-size: 2rem;
+}
