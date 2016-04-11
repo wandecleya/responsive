@@ -4,20 +4,23 @@ body {
 }
 
 main {
-	max-width: 1000px;
+	max-width: 780px;
 	margin: 0 auto;
+  padding: 10px;
 }
 
 h1 {
 	margin: 5px;
   font-size: 2rem;
   font-weight: bold;
+  text-align: center;
 }
 
 #menu {
   background-color: #333;
   height: 50px;
   margin-bottom: 30px;
+  width: 100%;
 }
 
 #menu ul {
@@ -59,4 +62,29 @@ h1 {
   color: #333;
   background-color: #eee;
   flex-direction: column;
+}
+
+.box {
+	width: 180px;
+	height: 150px;
+	background-color: orange;
+	margin: 5px;
+	font-size: 1.5rem;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.short {
+	height: 75px;
+}
+
+.wide {
+	width: 370px;
+}
+
+.big-box {
+	width: 300px;
+	height: 300px;
 }
