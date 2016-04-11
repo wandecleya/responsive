@@ -1,8 +1,20 @@
 section {
-	display: flex;
-	flex-wrap: wrap;
+	text-align: center;
+	margin: 0 auto;
 }
 
-p {
-	font-size: 2rem;
+p#rem{
+	font-size: 1rem;
+}
+
+p#px{
+	font-size: 16px;
+}
+
+p#em{
+	font-size: 1.6em;
+}
+
+p#vh{
+	font-size: 2.9vh;
 }

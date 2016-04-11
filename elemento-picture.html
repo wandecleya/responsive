@@ -1,11 +1,10 @@
-
 <!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/base.css">
-		<link rel="stylesheet" href="css/fontes.css">
+		<link rel="stylesheet" href="css/elemento-picture.css">
 		<title>Responsividade</title>
 	</head>
 	<body>
@@ -37,28 +36,12 @@
 			</ul>
 		</nav>
 		<main>
-			<h1>Fontes</h1>
-			<section>
-				<p id="rem">Eu vi um sapo correndo de lá<br>
-				A menina que chorou<br>
-				Quando olhei prá gaiola eu vi<br>
-				A minha rola que voô</p>
-
-				<p id="em">Oi corre, corre, corre<br>
-				Pega, pega minha rola<br>
-				"avôa", "avôa", "avôa"<br>
-				Pega, pega minha rola</p>
-
-				<p id="px">Eu não vou na sua casa<br>
-				Prá você não ir na minha<br>
-				Que tu tem a boca grande<br>
-				Vai comer minha galinha</p>
-
-				<p id="vh">Oi corre, corre, corre<br>
-				Pega, pega minha rola<br>
-				"avôa", "avôa", "avôa"<br>
-				Pega, pega minha rola</p>
-			</section>
+			<h1>Elemento Picture</h1>
+        <picture>
+         <source media="(min-width: 650px)" srcset="images/kitten-large.png">
+         <source media="(min-width: 465px)" srcset="images/kitten-medium.png">
+         <img src="images/kitten-small.png" alt="a cute kitten">
+        </picture>
 		</main>
 	</body>
 </html>
