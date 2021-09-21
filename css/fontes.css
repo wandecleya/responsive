@@ -4,7 +4,7 @@ section {
 }
 
 p#rem{
-	font-size: 1rem;
+	font-size: 1.6rem;
 }
 
 p#px{
@@ -16,5 +16,5 @@ p#em{
 }
 
 p#vh{
-	font-size: 2.9vh;
+	font-size: 1.6vw;
 }
